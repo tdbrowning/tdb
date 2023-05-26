@@ -1,0 +1,245 @@
+/* --------------------------------------------------------------- */
+/* -               Td0g STYLESHEET                               - */
+/* --------------------------------------------------------------- */
+
+/* ------ General Style definitions ------------------------------ */
+body,html {
+  background-color:silver;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  color: #555555;
+}
+
+* {
+  padding:0;
+  margin:0;
+} 
+
+div{
+  text-align: left;
+  border: 0px solid red;
+}
+
+td{
+  font: normal 11px verdana, Arial, sans-serif;
+}
+
+
+h1{
+  font: bolder 15px "Trebuchet MS", Arial, sans-serif;
+  padding: 0px 0px 0px 28px;
+  color: #333;
+  margin: 0px;
+  height: 20px;
+  border-bottom: 1px solid black;
+}
+
+h2{
+  padding: 0px 2px 2px 2px;
+  margin: 0 0 10px 0;
+  border-bottom: 3px solid #006699;
+  color: #333;
+  font: bold 14px "Trebuchet MS", Verdana, sans-serif;
+}
+
+p{
+  margin: 1em 0 1em 0;
+}
+
+table{
+  background-color:white;
+}
+
+img{
+  border: 1px solid black;
+  vertical-align: bottom;
+}
+
+a{
+text-decoration:none;
+color:#333333;
+}
+
+a:hover{
+  color: #006699;
+  text-decoration: underline;
+}
+
+/* ------ Named Style definitions -------------------------------- */
+
+#container{
+  width: 590px;
+  /* height: 400px; */
+}
+
+#contain-me{
+  width: 700px;
+ /*  height: 600px; */
+}
+
+
+#header{
+  border-bottom: 1px solid black; 
+  font: 10px Verdana, arial, sans-serif;
+  color: #888888;
+} 
+  
+#main{
+  margin-right: 130px;
+  padding-top: 20px;
+  vertical-align: top;
+}
+
+
+#menu{
+  float: right;
+  width: 120px;
+  /* height: 490px; */
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+#about td{
+  padding-bottom: 15px;
+}
+
+#about{
+  width: 430px;
+}
+
+
+#spacer2{
+  height: 280px;
+}
+
+/* new table layout styles */
+
+table#central { 
+  width:700px;
+  border-collapse:collapse
+}
+table#central td {
+  vertical-align:top
+}
+td.header{
+  border-bottom: 1px solid black; 
+  font: 10px Verdana, arial, sans-serif;
+  color: #888888;
+} 
+td.menu{
+  width: 120px;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+}
+td.mainContent{
+  padding:15px 10px 10px 0;}
+  
+h1.index{
+  border-bottom:1px solid black;
+  margin:2px 0 10px 0;
+}
+
+/* ------ Class Specific definitions -------------------------- */
+
+
+.floatright{
+  float: right;
+  width: 50%;
+}
+.floatleft{
+  float: left;
+  margin: 0 10px 0 0;
+}
+
+
+
+table.holder{
+  border:15px solid silver;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+ul.about{
+  list-style: none;
+}
+
+ul.about li{
+  background: url(../images/blue_bullet.gif) no-repeat left;
+  padding-left: 8px;
+}
+
+.noborder{
+  border: 0px;
+}
+
+a.logo{
+  font: bold 40px Verdana;
+  color: #333333;
+}
+
+a.logo:hover{
+  color: #006699;
+  text-decoration:none;
+}
+
+
+/* -------------------------------------------------------------- */
+
+#navlist{
+  list-style-type: none;
+  text-align: left;
+  margin:0px;
+  padding-left: 10px;
+}
+
+#navlist li a{
+  background: transparent url(../images/bullet_off.gif) left center no-repeat;
+  padding-left: 10px;
+  text-align: left;
+  font: normal 11px verdana, lucida, sans-serif;
+  text-decoration: none;
+  color: #888;
+}
+
+#navlist a:hover{
+  background: transparent url(../images/bullet_hover.gif) left center no-repeat;
+  color: black;
+}
+
+#navlist li a#current{
+  background: transparent url(../images/bullet_on.gif) left center no-repeat;
+  color: black;
+}
+
+/* -------------------------------------------------------------- */
+
+
+/* -------------------------------------------------------------- */
+
+#navlist1{
+  list-style-type: none;
+  text-align: left;
+  margin:0px;
+}
+
+#navlist1 li a{
+  background: transparent url(../images/bullet_off.gif) left center no-repeat;
+  text-align: left;
+  font: normal 11px verdana, lucida, sans-serif;
+  text-decoration: none;
+  color: #888;
+}
+
+#navlist1 a:hover{
+  background: transparent url(../images/bullet_hover.gif) left center no-repeat;
+  color: black;
+}
+
+#navlist1 li a#current{
+  background: transparent url(../images/bullet_on.gif) left center no-repeat;
+  color: black;
+}
+
+/* -------------------------------------------------------------- */
